@@ -422,7 +422,7 @@
 
 <input type="email" id="subscribe-email" name="user-email" class="subscribe-input" placeholder="E-mail" />
 
-<button type="button" data-modal-open class="subscribe-btn">
+<button type="submit" data-modal-open class="subscribe-btn">
     Subscribe
     <svg class="subscribe-icon" width="24" height="24">
         <use href="./images/icons.svg#send"></use>
@@ -440,7 +440,7 @@
 
     </footer>
 <!--Форма, модальне вікно-->
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" id="modal">
     <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
             <svg class="modal-close-icon" width="24" height="24">
@@ -483,7 +483,7 @@
 
             <div class="contact-form-checkbox">
                 <label class="form-name-chk" for="modal">
-                    <input class="checkbox" type="checkbox" name="policy" id="modal">
+                    <input class="checkbox" type="checkbox" name="policy" >
                     <svg class="contact-form-chk" width="16" height="15">
                         <use href="./images/icons.svg#check-mark">
                         </use>

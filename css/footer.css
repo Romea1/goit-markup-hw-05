@@ -117,8 +117,8 @@
 
     background-color: transparent;
 
-    font-size: 12px;
-    line-height: 2;
+font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
 
     color: #ffffff;
@@ -131,12 +131,12 @@
 .subscribe-input::placeholder {
     color: #ffffff;
     font-size: 12px;
-    line-height: 2;
+line-height: 1.17;
     letter-spacing: 0.04em;
 }
 .subscribe-input:hover,
 .subscribe-input:focus {
-    border-color: #4d5ae5;
+    border-color: #31d0aa;
 }
 
 .form-btn {}
@@ -170,6 +170,7 @@
 .subscribe-btn:hover,
 .subscribe-btn:focus {
     background: #31d0aa;
+    color: #fff;
 }
 /* .forma-button:hover,
 .forma-button:focus {
