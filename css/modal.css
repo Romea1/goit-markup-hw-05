@@ -56,7 +56,7 @@ border-radius: 4px;
     position: absolute;
     top: 24px;
     right: 24px;
-    bottom: 24;
+    bottom: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,9 +70,7 @@ border-radius: 4px;
 
 
 border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 24px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 24px;
+    border-radius: 50%;
     width: 24px;
     height: 24px;
     background: #e7e9fc;
@@ -84,7 +82,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: #404bbf;
 
 }
-.modal-close-icon:hover{
+.modal-close-btn:hover .modal-close-icon {
     fill: #fff;
 }
 
@@ -130,7 +128,7 @@ font-family: "Roboto", sans-serif;
 .contact-form {
     border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
-        /* padding: 8px 38px; */
+        padding-left: 38px;
         width: 343px;
         height: 40px;
         max-width: 360px;
@@ -140,10 +138,11 @@ font-family: "Roboto", sans-serif;
 
 .contact-form:focus,
 .comment:focus {
-    border-color: var(--accent-color);
-    cursor: pointer;
-    outline: none;
+border: 1px solid #4d5ae5;
     border-radius: 4px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 120px;
 }
 
 .comment {
@@ -217,7 +216,9 @@ font-family: "Roboto", sans-serif;
     border-color: #2196F3;
     border-radius: 2px;
     background-origin: border-box;
-    background-image: url(../images/icons.svg#check-mark);
+    background-color: #404bbf;
+        border-color: #404bbf;
+        fill: #fff;
     background-size: contain;
 }
 
