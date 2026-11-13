@@ -61,9 +61,9 @@
 .footer-logo:focus .studio {
     color: #4d5ae5;
 }
-.social{
+/* .social{
     margin-right: 83px;
-}
+} */
 .footer-social-list {
     display: flex;
 }
