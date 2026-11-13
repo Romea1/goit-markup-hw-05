@@ -135,7 +135,7 @@
 
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-
+letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
@@ -157,8 +157,9 @@
     border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
         padding: 8px 38px;
+        margin-top: 4px;
         width: 360px;
-        height: 40px;
+        height: 120px;
         max-width: 360px;
         min-height: 40px;
     padding: 8px 16px;
@@ -177,9 +178,7 @@
 .comment:focus {
 border: 1px solid #4d5ae5;
 border-radius: 4px;
-padding: 8px 16px;
-width: 360px;
-height: 120px;
+
 }
 
 .contact-form-img {
@@ -278,7 +277,7 @@ background-color: #404bbf;
         margin-left: auto;
             margin-right: auto;
             margin-top: 24px;
-        
+        border: none;
         
             justify-content: center;
             align-items: center;
